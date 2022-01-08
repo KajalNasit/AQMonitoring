@@ -15,6 +15,7 @@ class AQIChartViewModel : AQIChartDelegate {
 
     func updateAQIForCity(aqi: Double) {
         print("aqi : \(aqi)")
+        
         let aqi1 = ChartDataEntry(x: Double(arrAQI.count), y: aqi)
         arrAQI.append(aqi1)
         DispatchQueue.main.async {

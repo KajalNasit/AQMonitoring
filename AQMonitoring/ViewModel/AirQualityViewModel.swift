@@ -40,6 +40,7 @@ class AirQualityViewModel {
             tempDict[obj.city ?? ""] = obj
             
             if obj.city == selectedCity {
+                print("selectedCity : \(selectedCity)")
                 self.aqiDelegate?.updateAQIForCity(aqi: obj.aqi ?? 0.0)
             }
         }

@@ -65,7 +65,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FA1-8Z-wYu" customClass="PieChartView" customModule="Charts">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FA1-8Z-wYu" customClass="LineChartView" customModule="Charts">
                                 <rect key="frame" x="0.0" y="194" width="414" height="518"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -81,7 +81,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="7Xz-AS-cfI"/>
                     <connections>
-                        <outlet property="pieChartView" destination="FA1-8Z-wYu" id="5vQ-sk-3IM"/>
+                        <outlet property="lineChartView" destination="FA1-8Z-wYu" id="Jk0-Ic-Ts5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xod-0G-sX9" sceneMemberID="firstResponder"/>
