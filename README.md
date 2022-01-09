@@ -11,3 +11,8 @@ Air Quality Monitoring App to see live AQI and city data/graph in Swift with Web
 
 **Architecture**:
 - Used MVVM 
+
+**ScreenShots**
+
+<img src="https://github.com/KajalNasit/AQMonitoring/blob/main/ScreenShots/home.png" alt="Logo" width="100" height="200">
+<img src="https://github.com/KajalNasit/AQMonitoring/blob/main/ScreenShots/chart.png" alt="Logo" width="100" height="200">
